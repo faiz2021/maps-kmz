@@ -1,0 +1,24 @@
+المرشحون الأصليون: 47
+الإضافات/التصحيحات اليدوية: 16
+تم حلها: 14
+تعذر: 2
+
+FAILED:
+راز باتيسري | Razz Patisserie | 57A Home Street, Edinburgh EH3 9JP
+أوريجن كوفي | Origin Coffee South College Street | 6-8 South College Street, Edinburgh EH8 9AA
+
+PATCHED:
+باتينا بيكري | Patina Bakery | 55.9300809,-3.3168406 | 2, Airborne Place, Edinburgh Park, South Gyle, City of Edinburgh, Alba / Scotland, EH12 9SE, United Kingdom
+نايس تايمز بيكري | Nice Times Bakery | 55.9460399,-3.2122467 | 147, Morrison Street, Haymarket, West End, City of Edinburgh, Alba / Scotland, EH3 8AG, United Kingdom
+شوغر داديز بيكري | SugarDaddy’s Bakery | 55.9382153,-3.1923363 | 8, Roseneath Street, Marchmont, City of Edinburgh, Alba / Scotland, EH9 1JH, United Kingdom
+تانتروم دونتس | Tantrum Doughnuts | 55.8605860,-4.2557879 | Tantrum Doughnuts, 28, Gordon Street, Blythswood Hill, Glasgow, Glasgow City, Alba / Scotland, G1 3PU, United Kingdom
+بيرنفيلد بيكري | Burnfield Bakery | 55.8357135,-4.2715199 | Pollokshaws Road, Shawmoss, Strathbungo, Glasgow, Glasgow City, Alba / Scotland, G41 2AX, United Kingdom
+ميبل ليف بيكري | Maple Leaf Bakery | 55.8637960,-4.3107564 | Water Row, Govan, Glasgow, Glasgow City, Alba / Scotland, G51 2LQ, United Kingdom
+غرانتس ذا بيكرز | Grants the Bakers | 55.8579688,-4.2241871 | Grants, 100, Bellgrove Street, Bellgrove, Gallowgate, Glasgow, Glasgow City, Alba / Scotland, G31 1AA, United Kingdom
+ميديناز كوفي | Medina’s Coffee | 55.8321989,-4.2773347 | 1001, Pollokshaws Road, Shawmoss, Strathbungo, Glasgow, Glasgow City, Alba / Scotland, G41 3YF, United Kingdom
+ريست | Rest Coffee | 55.8607887,-4.2382804 | High Street, Townhead, Glasgow, Glasgow City, Alba / Scotland, G4 0QT, United Kingdom
+برامبل كافيه | Bramble Cafe | 55.8316817,-4.2786485 | Pollokshaws Road, Shawmoss, Crossmyloof, Glasgow, Glasgow City, Alba / Scotland, G41 2HG, United Kingdom
+بابا توني رستورانتي إيتاليانو | Papa Tony’s Ristorante Italiano | 55.8655039,-4.2643337 | Sauchiehall Street, Woodlands, Garnethill, Glasgow, Glasgow City, Alba / Scotland, G2 4DY, United Kingdom
+كانوتو بيتزا | Canotto Pizza Glasgow | 55.8481421,-4.3222834 | Torbreck Street, Mosspark, Glasgow, Glasgow City, Alba / Scotland, G52 1DR, United Kingdom
+لوكوز بيتزا | Loco’s Pizza | 55.8468081,-4.2270313 | Curry Express, 4, Tullis Street, Hutchesontown, Bridgeton, Glasgow, Glasgow City, Alba / Scotland, G40 1HN, United Kingdom
+إيزي بيتزا | Easy Pizza | 55.8505404,-4.1988564 | Springfield Road, Lilybank, Parkhead, Glasgow, Glasgow City, Alba / Scotland, G31 4HG, United Kingdom
