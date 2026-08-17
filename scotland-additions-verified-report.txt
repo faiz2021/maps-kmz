@@ -1,0 +1,4 @@
+المرشحون الأصليون: 172
+المدرجون النهائيون بإحداثيات مؤكدة: 169
+المستبعدون لعدم توفر نقطة دقيقة واحدة: 2 (City Centre Mural Trail, Open Close Dundee)
+المستبعد بسبب ارتباط المكان بتصنيف بار/كحول: 1 (Gretna Green Famous Blacksmiths Shop)
