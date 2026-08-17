@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>إضافات إدنبرة وضواحيها 2026</name>
+  <description>إضافات سياحية مختارة لإدنبرة وضواحيها.</description>
+
+  <Style id="walk"><IconStyle><scale>0.9375</scale><Icon><href>https://maps.google.com/mapfiles/kml/shapes/hiker.png</href></Icon></IconStyle></Style>
+  <Style id="landmark"><IconStyle><scale>0.9375</scale><Icon><href>https://maps.google.com/mapfiles/kml/shapes/info-i_maps.png</href></Icon></IconStyle></Style>
+  <Style id="park"><IconStyle><scale>0.9375</scale><Icon><href>https://maps.google.com/mapfiles/kml/shapes/parks.png</href></Icon></IconStyle></Style>
+  <Style id="water"><IconStyle><scale>0.9375</scale><Icon><href>https://maps.google.com/mapfiles/kml/shapes/water.png</href></Icon></IconStyle></Style>
+  <Style id="shopping"><IconStyle><scale>0.9375</scale><Icon><href>https://maps.google.com/mapfiles/kml/shapes/shopping.png</href></Icon></IconStyle></Style>
+  <Style id="coffee"><IconStyle><scale>0.9375</scale><Icon><href>https://maps.google.com/mapfiles/kml/shapes/coffee.png</href></Icon></IconStyle></Style>
+  <Style id="dining"><IconStyle><scale>0.9375</scale><Icon><href>https://maps.google.com/mapfiles/kml/shapes/dining.png</href></Icon></IconStyle></Style>
+  <Style id="entertainment"><IconStyle><scale>0.9375</scale><Icon><href>https://maps.google.com/mapfiles/kml/shapes/play.png</href></Icon></IconStyle></Style>
+  <Style id="camera"><IconStyle><scale>0.9375</scale><Icon><href>https://maps.google.com/mapfiles/kml/shapes/camera.png</href></Icon></IconStyle></Style>
+  <Style id="ferry"><IconStyle><scale>0.9375</scale><Icon><href>https://maps.google.com/mapfiles/kml/shapes/ferry.png</href></Icon></IconStyle></Style>
+
+  <Folder>
+    <name>إضافات إدنبرة وضواحيها</name>
+
+    <Placemark><name>ممشى ووتر أوف ليث – ممشى طبيعي 🚶‍♂️</name><styleUrl>#walk</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Water of Leith Walkway<br/>ممر طبيعي طويل بمحاذاة نهر ليث يمر بمناطق خضراء وأحياء جميلة، ومناسب للمشي والتصوير واستكشاف جانب هادئ من إدنبرة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.33891,55.88754,0</coordinates></Point></Placemark>
+
+    <Placemark><name>قلعة كريغميلار – قلعة تاريخية 🏰</name><styleUrl>#landmark</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Craigmillar Castle<br/>قلعة تاريخية محفوظة جنوب شرق إدنبرة ترتبط بتاريخ ماري ملكة الاسكتلنديين، وتتميز بأجوائها الهادئة وإطلالاتها على محيط المدينة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.14062,55.92571,0</coordinates></Point></Placemark>
+
+    <Placemark><name>نصب نيلسون – برج ونصب تاريخي 🗼</name><styleUrl>#landmark</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Nelson Monument<br/>برج تذكاري بارز فوق كالتون هيل، ويعد من معالم أفق إدنبرة ويوفر موقعًا مرتفعًا بإطلالات جميلة على المدينة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.18258,55.95436,0</coordinates></Point></Placemark>
+
+    <Placemark><name>النصب الوطني لاسكتلندا – معلم تاريخي 🏛️</name><styleUrl>#landmark</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: National Monument of Scotland<br/>نصب كلاسيكي شهير غير مكتمل على كالتون هيل، مستوحى من العمارة اليونانية ويعد من أشهر نقاط التصوير في إدنبرة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.18177,55.95475,0</coordinates></Point></Placemark>
+
+    <Placemark><name>حي ستوكبريدج – حي سياحي 🏘️</name><styleUrl>#camera</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Stockbridge<br/>حي أنيق قريب من وسط إدنبرة يشتهر بالمقاهي والمتاجر المستقلة والأسواق وقربه من ممشى ووتر أوف ليث.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.20934,55.95797,0</coordinates></Point></Placemark>
+
+    <Placemark><name>حي ليث – منطقة سياحية وميناء تاريخي ⚓</name><styleUrl>#camera</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Leith<br/>منطقة الميناء التاريخية لإدنبرة وتجمع الواجهة البحرية والمطاعم والمقاهي والمعالم البحرية ضمن أجواء محلية مميزة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.17095,55.97255,0</coordinates></Point></Placemark>
+
+    <Placemark><name>بورتوبيلو – منطقة ساحلية 🌊</name><styleUrl>#water</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Portobello<br/>ضاحية ساحلية محببة شرق إدنبرة تجمع الشاطئ والممشى البحري والمقاهي، وتناسب النزهات الهادئة خصوصًا في الأجواء الجميلة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.11456,55.95286,0</coordinates></Point></Placemark>
+
+    <Placemark><name>حديقة فيغيت – حديقة وبحيرة 🌳</name><styleUrl>#park</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Figgate Park<br/>منتزه أخضر قرب بورتوبيلو يضم بركة ومسارات للمشي ومساحات مناسبة للعائلات ومشاهدة الطيور.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.122864,55.950497,0</coordinates></Point></Placemark>
+
+    <Placemark><name>حدائق سوغتون – حديقة 🌳</name><styleUrl>#park</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Saughton Park<br/>حديقة واسعة غرب إدنبرة تضم مساحات خضراء وحدائق منظمة وممرات مناسبة للمشي والراحة والعائلات.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.25197,55.93504,0</coordinates></Point></Placemark>
+
+    <Placemark><name>تل بلاكفورد – مطل طبيعي 🌄</name><styleUrl>#park</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Blackford Hill<br/>تل طبيعي هادئ جنوب إدنبرة يوفر مسارات للمشي وإطلالات بانورامية جميلة على المدينة والمناطق المحيطة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.19468,55.92306,0</coordinates></Point></Placemark>
+
+    <Placemark><name>شاطئ بورتوبيلو – شاطئ وممشى 🏖️</name><styleUrl>#water</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Portobello Beach<br/>شاطئ رملي شهير مع ممشى بحري طويل، ويعد من أفضل الأماكن القريبة من وسط إدنبرة للنزهة ومشاهدة الساحل.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.10795,55.95585,0</coordinates></Point></Placemark>
+
+    <Placemark><name>شارع فيكتوريا – شارع سياحي 🌈</name><styleUrl>#camera</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Victoria Street<br/>شارع منحني وملون في قلب البلدة القديمة، معروف بواجهاته المميزة ومتاجره الصغيرة ويعد من أشهر مواقع التصوير في إدنبرة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.19380,55.94866,0</coordinates></Point></Placemark>
+
+    <Placemark><name>شارع كاندل ميكر رو – شارع تاريخي 🚶</name><styleUrl>#walk</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Candlemaker Row<br/>شارع تاريخي في البلدة القديمة يربط منطقة غراس ماركت بمحيط غريفرايرز، ويتميز بطابعه المعماري القديم.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.19199,55.94737,0</coordinates></Point></Placemark>
+
+    <Placemark><name>شارع ويست بورت – شارع تاريخي 🚶</name><styleUrl>#walk</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: West Port<br/>شارع تاريخي بجوار غراس ماركت يضم متاجر مستقلة ومقاهي ويشكل امتدادًا لطيفًا لجولة البلدة القديمة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.19975,55.94643,0</coordinates></Point></Placemark>
+
+    <Placemark><name>شارع كونستيتيوشن – شارع سياحي ⚓</name><styleUrl>#walk</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Constitution Street<br/>أحد الشوارع التاريخية الرئيسية في ليث، ويمتد باتجاه منطقة الميناء وتنتشر حوله المقاهي والمطاعم والمباني ذات الطابع المحلي.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.16833,55.97306,0</coordinates></Point></Placemark>
+
+    <Placemark><name>سوق أوشن تيرمينال – سوق محلي 🛍️</name><styleUrl>#shopping</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Ocean Terminal Market<br/>سوق محلي يقام داخل أوشن تيرمينال ويضم منتجات وحرفًا ومشاريع مستقلة، ويُنصح بالتحقق من موعد انعقاده قبل الزيارة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.17810,55.98086,0</coordinates></Point></Placemark>
+
+    <Placemark><name>برنت ووركس كوفي – مقهى ☕</name><styleUrl>#coffee</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Printworks Coffee<br/>مقهى محلي في منطقة ليث يقدم القهوة والمخبوزات ضمن أجواء هادئة وقريبة من الواجهة البحرية.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.167339,55.97493,0</coordinates></Point></Placemark>
+
+    <Placemark><name>كافيه برالين – مقهى وحلويات 🍰</name><styleUrl>#coffee</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Cafe Praline<br/>باتيسري ومقهى على ليث ووك يقدم مجموعة من الحلويات والمخبوزات والقهوة، ويعد محطة لطيفة خلال استكشاف منطقة ليث.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.17276,55.96912,0</coordinates></Point></Placemark>
+
+    <Placemark><name>ماشينا مارشمونت – مقهى ومحمصة ☕</name><styleUrl>#coffee</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Machina Coffee - Marchmont Cafe<br/>مقهى ومحمصة قهوة متخصصة في مارشمونت، معروف بتحميص البن محليًا وتقديم مشروبات القهوة والمخبوزات.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.1950419,55.9381642,0</coordinates></Point></Placemark>
+
+    <Placemark><name>سودربيرغ ستوكبريدج – مخبز ومقهى 🥐</name><styleUrl>#coffee</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Söderberg Stockbridge<br/>مقهى ومخبز سويدي في ستوكبريدج يشتهر بالمعجنات السويدية والقهوة والخبز، ويتميز بموقعه وسط أحد أجمل أحياء إدنبرة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.209057,55.958321,0</coordinates></Point></Placemark>
+
+    <Placemark><name>كافيه بوميلو – مقهى ومطعم ☕</name><styleUrl>#coffee</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Pomelo<br/>مقهى ومطعم بطابع آسيوي حديث قرب منطقة ذا ميدوز، ويقدم أطباقًا ونكهات موسمية ضمن أجواء غير رسمية.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.1856034,55.9380092,0</coordinates></Point></Placemark>
+
+    <Placemark><name>كونفيليسيتي بيكري – مخبز ومقهى 🥐</name><styleUrl>#coffee</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Confelicity Bakery<br/>مخبز ومقهى متخصص في المخبوزات والأطعمة الخالية من الغلوتين في منطقة برونتسفيلد.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.20958,55.93575,0</coordinates></Point></Placemark>
+
+    <Placemark><name>ذا كيتشن – مطعم فاخر ⭐</name><styleUrl>#dining</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: The Kitchin<br/>مطعم راقٍ في منطقة ليث يركز على المنتجات الاسكتلندية الموسمية ويعد من أبرز تجارب الطعام الفاخر في إدنبرة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.172738,55.977161,0</coordinates></Point></Placemark>
+
+    <Placemark><name>مطعم مارتن ويشارت – مطعم فاخر ⭐</name><styleUrl>#dining</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Restaurant Martin Wishart<br/>مطعم راقٍ على واجهة ذا شور في ليث، يقدم مطبخًا معاصرًا بتقنيات فرنسية ومنتجات اسكتلندية موسمية.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.170375,55.975494,0</coordinates></Point></Placemark>
+
+    <Placemark><name>ذا براهنا إنديان غريل – مطعم هندي حلال 🍛</name><styleUrl>#dining</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: The Prahna Indian Grill<br/>مطعم هندي حديث في غرب إدنبرة يقدم أطباقًا هندية متنوعة. يُنصح بتأكيد تفاصيل اللحوم الحلال مباشرة مع المطعم عند الزيارة لأن خيارات التوريد قد تتغير.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.29119,55.94277,0</coordinates></Point></Placemark>
+
+    <Placemark><name>تشاو فرايا إدنبرة – مطعم بانورامي 🌇</name><styleUrl>#dining</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Chaophraya Edinburgh<br/>مطعم تايلندي في موقع مرتفع بوسط إدنبرة، ويتميز بإطلالاته على أفق المدينة والقلعة إلى جانب الأطباق التايلندية.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.20310,55.95220,0</coordinates></Point></Placemark>
+
+    <Placemark><name>إدنبرة ستريت فود – سوق ومجمع طعام 🍴</name><styleUrl>#dining</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Edinburgh Street Food<br/>قاعة طعام حديثة في وسط إدنبرة تجمع عددًا من مشاريع الطعام المستقلة والمطابخ المتنوعة في موقع واحد.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.18571,55.95584,0</coordinates></Point></Placemark>
+
+    <Placemark><name>روكسي لينز روز ستريت – مركز ترفيهي 🎳</name><styleUrl>#entertainment</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Roxy Lanes Rose Street Edinburgh<br/>مركز ترفيهي في قلب المدينة يضم البولينغ ومجموعة من الألعاب والأنشطة الجماعية الداخلية.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.1956581,55.952964,0</coordinates></Point></Placemark>
+
+    <Placemark><name>فلايت كلوب إدنبرة – مركز ترفيهي 🎯</name><styleUrl>#entertainment</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Flight Club Edinburgh<br/>تجربة ترفيهية للسهام الاجتماعية الحديثة داخل سانت جيمس كوارتر، وتناسب المجموعات والأصدقاء ضمن ألعاب رقمية تفاعلية.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.18872,55.95483,0</coordinates></Point></Placemark>
+
+    <Placemark><name>شاطئ كراموند – شاطئ وممشى 🌊</name><styleUrl>#water</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Cramond Beach<br/>شاطئ وممشى هادئ شمال غرب إدنبرة مع إطلالات على خليج فورث وجزيرة كراموند، ويعد موقعًا مناسبًا للنزهة والتصوير.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.29809,55.98043,0</coordinates></Point></Placemark>
+
+    <Placemark><name>ميناء نيوهافن – ميناء تاريخي ⚓</name><styleUrl>#water</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Newhaven Harbour<br/>ميناء تاريخي جميل شمال إدنبرة يتميز بأجوائه البحرية ومبانيه القديمة، ويعد من المواقع المحببة للتصوير والمشي قرب الساحل.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.19619,55.98148,0</coordinates></Point></Placemark>
+
+    <Placemark><name>روسلين تشابل – معلم تاريخي 🏛️</name><styleUrl>#landmark</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Rosslyn Chapel<br/>معلم تاريخي شهير من القرن الخامس عشر جنوب إدنبرة، يتميز بالنقوش الحجرية الدقيقة والتفاصيل المعمارية الفريدة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.15994,55.85539,0</coordinates></Point></Placemark>
+
+    <Placemark><name>جوبيتر آرتلاند – حديقة فنون ومنحوتات 🎨</name><styleUrl>#park</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Jupiter Artland<br/>حديقة فنون معاصرة غرب إدنبرة تنتشر فيها أعمال ومنحوتات فنية وسط الطبيعة، وتجمع بين المشي والفن والمناظر الريفية.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.42421,55.90449,0</coordinates></Point></Placemark>
+
+    <Placemark><name>تلال بنتلاند – منتزه طبيعي وجبال ⛰️</name><styleUrl>#park</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Pentland Hills Regional Park<br/>منطقة تلال ومنتزه إقليمي واسع جنوب إدنبرة يوفر مسارات متنوعة للمشي وإطلالات ريفية جميلة قريبة من المدينة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.29857,55.85853,0</coordinates></Point></Placemark>
+
+    <Placemark><name>ألباين كوستر هيلند – زحليقة جبلية 🎢</name><styleUrl>#entertainment</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Alpine Coaster<br/>زحليقة جبلية ترفيهية في هيلند ضمن مركز الرياضات الثلجية قرب إدنبرة، وتقدم تجربة سريعة مع إطلالات على المنطقة. يُفضّل التحقق من مواعيد التشغيل والحجز مسبقًا.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.208635,55.887058,0</coordinates></Point></Placemark>
+
+    <Placemark><name>دالكيث كانتري بارك – منتزه ريفي 🌳</name><styleUrl>#park</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Dalkeith Country Park<br/>منتزه ريفي واسع شرق إدنبرة يضم غابات ومسارات للمشي وأنشطة عائلية ومساحات طبيعية مناسبة لقضاء عدة ساعات.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.06668,55.90365,0</coordinates></Point></Placemark>
+
+    <Placemark><name>غو إيب دالكيث – مغامرات وحبال 🧗</name><styleUrl>#entertainment</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Go Ape Dalkeith<br/>تجربة مغامرات داخل دالكيث كانتري بارك تضم مسارات حبال مرتفعة وانزلاقات هوائية، ومناسبة لمحبي الأنشطة الخارجية وفق شروط العمر والطول.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.05973,55.90312,0</coordinates></Point></Placemark>
+
+    <Placemark><name>روسلين غلين كانتري بارك – غابات ومنتزه 🌲</name><styleUrl>#park</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Roslin Glen Country Park<br/>وادي وغابات طبيعية قرب روسلين تشابل مع مسارات للمشي ومشاهد لنهر نورث إسك ومواقع تاريخية بين الأشجار.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.16648,55.85236,0</coordinates></Point></Placemark>
+
+    <Placemark><name>حديقة دكتور نيل – حديقة سرية 🌺</name><styleUrl>#park</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Dr Neil's Garden<br/>حديقة صغيرة وهادئة بجوار ددنجستون لوخ وأسفل آرثرز سيت، تتميز بالأزهار والزوايا الجميلة وتناسب الاسترخاء والتصوير.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.148951,55.940556,0</coordinates></Point></Placemark>
+
+    <Placemark><name>سيركس لين – شارع سياحي وتصوير 📸</name><styleUrl>#camera</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Circus Lane<br/>شارع حجري صغير في ستوكبريدج معروف بالمنازل الأنيقة والزهور، ويعد من أشهر الشوارع الهادئة للتصوير في إدنبرة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.20557,55.95802,0</coordinates></Point></Placemark>
+
+    <Placemark><name>ذا فينيل – مطل وتصوير القلعة 📸🏰</name><styleUrl>#camera</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: The Vennel<br/>ممر ودرج تاريخي قرب غراس ماركت يوفر واحدة من أشهر الزوايا المجانية لتصوير قلعة إدنبرة فوق أسطح المدينة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.19717,55.94637,0</coordinates></Point></Placemark>
+
+    <Placemark><name>ذا شوكولاتاريوم – تجربة شوكولاتة 🍫</name><styleUrl>#entertainment</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: The Chocolatarium<br/>تجربة شوكولاتة قريبة من رويال مايل تشمل التعرف على صناعة الشوكولاتة والتذوق وأنشطة تفاعلية مناسبة لمحبي الحلويات.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.18401,55.95089,0</coordinates></Point></Placemark>
+
+    <Placemark><name>بوني آند وايلد – سوق ومجمع طعام 🍴</name><styleUrl>#dining</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Bonnie & Wild's Scottish Marketplace<br/>قاعة طعام اسكتلندية داخل سانت جيمس كوارتر تجمع مطابخ ومشاريع مستقلة في مكان واحد مع أجواء حيوية وموقع مركزي.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.18961,55.95511,0</coordinates></Point></Placemark>
+
+    <Placemark><name>مزرعة كريغيز – مزرعة ومتجر ومقهى 🍓</name><styleUrl>#park</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Craigies Farm<br/>مزرعة عائلية قرب ساوث كوينزفيري تضم متجرًا ومقهى وتجارب قطف موسمية وأنشطة للعائلات. تختلف أنشطة القطف حسب الموسم.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.35148,55.97116,0</coordinates></Point></Placemark>
+
+    <Placemark><name>قرية سوانستون – قرية ريفية 🏘️</name><styleUrl>#camera</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Swanston Village<br/>قرية تاريخية صغيرة وهادئة عند سفح تلال بنتلاند، تتميز بأكواخها وطابعها الريفي وتعد نقطة جميلة لبدء بعض مسارات المشي.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.21628,55.89320,0</coordinates></Point></Placemark>
+
+    <Placemark><name>مزرعة سوانستون – مزرعة ومطعم 🐄</name><styleUrl>#dining</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Swanston Farm<br/>مزرعة ريفية عند سفح تلال بنتلاند مع أجواء طبيعية ومسارات قريبة ومرافق لتناول الطعام في المنطقة.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.21762,55.89488,0</coordinates></Point></Placemark>
+
+    <Placemark><name>هاوز بير – رصيف ومطل جسور فورث 🌉</name><styleUrl>#ferry</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Hawes Pier<br/>رصيف تاريخي في ساوث كوينزفيري يقع أسفل جسر فورث، ويعد نقطة ممتازة للتصوير ومشاهدة الجسور وانطلاق الرحلات البحرية.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.38541,55.99091,0</coordinates></Point></Placemark>
+
+    <Placemark><name>ميد أوف ذا فورث – رحلات بحرية 🚢</name><styleUrl>#ferry</styleUrl><description><![CDATA[الاسم الرسمي بالإنجليزية: Maid of the Forth<br/>رحلات بحرية تنطلق من هاوز بير في ساوث كوينزفيري لمشاهدة جسور فورث والاستمتاع بالمناظر البحرية، مع رحلات مختارة باتجاه جزيرة إنشكولم. يُنصح بمراجعة الجدول والحجز مسبقًا.<br/><br/>جميع الحقوق محفوظة للخرائط السياحية.]]></description><Point><coordinates>-3.38541,55.99091,0</coordinates></Point></Placemark>
+
+  </Folder>
+</Document>
+</kml>
