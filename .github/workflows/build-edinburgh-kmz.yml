@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'edinburgh-additions-2026.kml'
+      - '.github/workflows/build-edinburgh-kmz.yml'
 
 permissions:
   contents: write
