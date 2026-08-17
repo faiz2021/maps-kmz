@@ -1,0 +1,33 @@
+Tourist Maps icon mapping used for Edinburgh additions
+Donor: Austria.kmz (same Tourist Maps map family)
+
+walk: images/icon-25.png
+  examples: خوانق وممر خشبي - قرية لوفر | خوانق ليخنشتاين كلام -سانت جوهان | شلال شلايه | شلالات كريمل + المواقف
+  output: icons/walk.png (30x30)
+landmark: images/icon-29.png
+  examples: سقف الذهب أو السطح الذهبي-  انسبورك | متحف التعدين | متحف السيارات - كابرون | متحف سيارات روزرايز
+  output: icons/landmark.png (30x30)
+park: images/icon-8.png
+  examples: الحديقه الوطنيه ميترسل | حديقة الميرابيل - سالزبورغ | منتزه جميل لاطعام البط + مكشات | منتزه رائع - بحيرة آخن سي
+  output: icons/park.png (30x30)
+water: images/icon-25.png
+  examples: خوانق برايت كلام | خانق زامر لوخبوتس | شلال شلايه | شلال صغير ومنظر طبيعي - المواقف
+  output: icons/water.png (30x30)
+shopping: images/icon-35.png
+  examples: سيتي سود - أكبر مول في النمسا | مول الدانوب زوترم | مول ايبستر - دوافير غاز | مول بيزز زيلامسي - طابقين
+  output: icons/shopping.png (30x30)
+coffee: images/icon-15.png
+  examples: المقهى الزجاجي فايتلبرغ - بيرتساو | كافيه مطل على زيلامسي | كافية كاب 4613 الهرمي | ستادت كافيه
+  output: icons/coffee.png (30x30)
+dining: images/icon-3.png
+  examples: مطعم آيس كيو | مطعم الجبل البانورامي الفيرهوت | مطعم النجمة البانورامي | مطعم كارين البانورامي
+  output: icons/dining.png (30x30)
+entertainment: images/icon-9.png
+  examples: تلفريك منتزه ريتسبيرج | تلفريك Eggalmbahn‏ | تلفريك Finkenberger Almbahnen‏‏‏‏ | تلفريك Rastkogelbahn‏
+  output: icons/entertainment.png (30x30)
+camera: images/icon-3.png
+  examples: أجمل ماكدونالدز في العالم | مطعم آيس كيو | مطعم الجبل البانورامي الفيرهوت | مطعم النجمة البانورامي
+  output: icons/camera.png (30x30)
+ferry: images/icon-48.png
+  examples: Rent a Boatاستئجار قوارب كهربائية‏‏‏‏ | عبارة هالشتات | رحلة بحرية 3 دول🇦🇹🇨🇭🇩🇪‏ | جولة بحيرة غروندلسي
+  output: icons/ferry.png (30x30)
