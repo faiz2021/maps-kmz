@@ -1,0 +1,27 @@
+name: Build Scotland Food Additions
+
+on:
+  push:
+    paths:
+      - 'build_scotland_food_additions.py'
+      - '.github/workflows/build-scotland-food-additions.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pillow
+        run: pip install pillow
+      - name: Build KMZ
+        run: python build_scotland_food_additions.py
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scotland-edinburgh-glasgow-food-additions-2026.kmz scotland-food-additions-report.txt
+          git diff --cached --quiet || git commit -m "Build Scotland Edinburgh Glasgow food additions KMZ"
+          git push
