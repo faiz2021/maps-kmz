@@ -1,0 +1,25 @@
+name: Patch Scotland Food Last Two
+
+on:
+  push:
+    paths:
+      - 'patch_scotland_food_last_two.py'
+      - '.github/workflows/patch-scotland-food-last-two.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build 47-place KMZ
+        run: python patch_scotland_food_last_two.py
+      - name: Commit final KMZ
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scotland-edinburgh-glasgow-food-additions-47.kmz
+          git diff --cached --quiet || git commit -m "Build 47-place Edinburgh Glasgow food additions KMZ"
+          git push
