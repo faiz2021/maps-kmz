@@ -1,0 +1,54 @@
+المرشحون: 47
+تم تحديد الإحداثيات وإدراجهم: 34
+تعذر تحديدهم: 13
+
+FAILED:
+باتينا بيكري | Patina Bakery | مخبز ومقهى | إدنبرة
+نايس تايمز بيكري | Nice Times Bakery | مخبز وحلويات | إدنبرة
+راز باتيسري | Razz Patisserie | حلويات حلال | Edinburgh
+أوريجن كوفي | Origin Coffee South College Street | مقهى مختص | Edinburgh
+بيرنفيلد بيكري | Burnfield Bakery | مخبز وحلويات | Strathbungo, Glasgow
+ميبل ليف بيكري | Maple Leaf Bakery | مخبز ومقهى | Glasgow
+غرانتس ذا بيكرز | Grants the Bakers | مخبز | Glasgow
+ميديناز كوفي | Medina’s Coffee | مقهى | Glasgow
+برامبل كافيه | Bramble Cafe Glasgow | مقهى وبرنش | Glasgow
+بابا توني رستورانتي إيتاليانو | Papa Tony’s Ristorante Italiano | مطعم إيطالي حلال | Glasgow
+كانوتو بيتزا | Canotto Pizza Glasgow | بيتزا إيطالية حلال | Glasgow
+لوكوز بيتزا | Locos Pizza Bridgeton | بيتزا حلال | Glasgow
+إيزي بيتزا | Easy Pizza Springfield Road | بيتزا حلال | Glasgow
+
+RESOLVED:
+لانان بيكري | Lannan Bakery | مخبز وحلويات | 55.9598011,-3.2066873 | Lannan Bakery, 29-35, Hamilton Place, Silvermills, Stockbridge/Inverleith, City of Edinburgh, Alba / Scotland, EH3 5BA, United Kingdom
+ديون بيكري | Dune Bakery | مخبز فرنسي | 55.9898569,-3.3948733 | Dune Bakery, 35b, High Street, Scotstoun, South Queensferry, Alba / Scotland, EH30 9HN, United Kingdom
+تويلف تراينغلز | Twelve Triangles | مخبز ومقهى | 55.9255433,-3.2096310 | Twelve Triangles, 414, Morningside Road, Church Hill, Morningside, City of Edinburgh, Alba / Scotland, EH10 5HY, United Kingdom
+ذا وي بولانجيري | The Wee Boulangerie | مخبز فرنسي | 55.9416525,-3.1819394 | The Wee Boulangerie, 67, Clerk Street, St Leonards, Southside, City of Edinburgh, Alba / Scotland, EH8 9JG, United Kingdom
+ذا باستري سيكشن | The Pastry Section | حلويات ومخبوزات | 55.9592529,-3.2133182 | The Pastry Section, 86, Raeburn Place, Silvermills, Stockbridge/Inverleith, City of Edinburgh, Alba / Scotland, EH4 1HH, United Kingdom
+شوغر داديز بيكري | SugarDaddy’s Bakery | مخبز وحلويات | 55.9622681,-3.1967802 | Hata, 5, Rodney Street, Bellevue, Canonmills, New Town/Broughton, City of Edinburgh, Alba / Scotland, EH7 4EN, United Kingdom
+بيبي فيسد بيكر | Babyfaced Baker | مخبز وحلويات | 55.9521662,-3.1125288 | Babyfaced Baker, 219, Portobello High Street, Bellfield, Joppa, Portobello, City of Edinburgh, Alba / Scotland, EH15 1EU, United Kingdom
+غوردون ستريت كوفي | Gordon St Coffee | مقهى ومحمصة | 55.9509599,-3.1899431 | Gordon Street Coffee, 6, Market Street, Abbeyhill, Old Town, City of Edinburgh, Alba / Scotland, EH1 1DE, United Kingdom
+آرتيزان روست | Artisan Roast Broughton Street | مقهى ومحمصة | 55.9579047,-3.1888679 | Artisan Roast, 57, Broughton Street, Bellevue, Broughton, New Town/Broughton, City of Edinburgh, Alba / Scotland, EH1 3RJ, United Kingdom
+فورتيتيود كوفي | Fortitude Coffee Abbey Mount | مقهى مختص | 55.9561720,-3.1718537 | Fortitude Coffee, 4, Abbey Mount, Abbeyhill, Old Town, City of Edinburgh, Alba / Scotland, EH8 8EJ, United Kingdom
+لوداون كوفي | Lowdown Coffee | مقهى مختص | 55.9532036,-3.1979048 | Lowdown Coffee, 40, George Street, New Town, New Town/Broughton, City of Edinburgh, Alba / Scotland, EH2 2LE, United Kingdom
+ذا ميلكمان | The Milkman | مقهى | 55.9503790,-3.1885283 | The Milkman, 52, Cockburn Street, Abbeyhill, Old Town, City of Edinburgh, Alba / Scotland, EH1 1PB, United Kingdom
+ويلينغتون كوفي | Wellington Coffee | مقهى مختص | 55.9536599,-3.1976177 | Wellington Coffee, 33A, George Street, New Town, New Town/Broughton, City of Edinburgh, Alba / Scotland, EH2 2HN, United Kingdom
+كيرنغورم كوفي | Cairngorm Coffee | مقهى مختص | 55.9396811,-3.2043114 | Cairngorm, 49, Barclay Place, Lauriston, Bruntsfield, City of Edinburgh, Alba / Scotland, EH10 4HW, United Kingdom
+ليتل فيتزروي | Little Fitzroy | مقهى | 55.9584669,-3.1716425 | Little Fitzroy, 46-48, Easter Road, Hillside, Leith, City of Edinburgh, Alba / Scotland, EH7 5RG, United Kingdom
+كباب محل | Kebab Mahal | مطعم حلال | 55.9461610,-3.1859794 | Kebab Mahal, 7, Nicolson Square, Pleasance, Southside, City of Edinburgh, Alba / Scotland, EH8 9BH, United Kingdom
+موسك كيتشن | Mosque Kitchen | مطعم حلال | 55.9450405,-3.1853560 | Mosque Kitchen, 50, Potterrow, Pleasance, Southside, City of Edinburgh, Alba / Scotland, EH8 9BT, United Kingdom
+تانتروم دونتس | Tantrum Doughnuts | دونات وحلويات | 55.8319635,-4.2793438 | Tantrum Doughnuts, 20, Minard Road, Waverley Park, Shawmoss, Crossmyloof, Glasgow, Glasgow City, Alba / Scotland, G41 2HN, United Kingdom
+ذا دوركي فرنش | The Dorky French | مخبز فرنسي نباتي | 55.8562686,-4.2457674 | The Dorky French, 39, Parnie Street, Hutchesontown, Merchant City, Glasgow, Glasgow City, Alba / Scotland, G1 5LU, United Kingdom
+دو | Doh Doughnuts Glasgow | دونات ومخبوزات | 55.8723761,-4.3023955 | Doh Doughnuts, 61-63, Hyndland Street, Dowanhill, Partick, Glasgow, Glasgow City, Alba / Scotland, G11 5PS, United Kingdom
+بارتينوبي | Partenope | مخبز إيطالي ومقهى | 55.8271244,-4.2877894 | Partenope, 75, Hector Road, Waverley Park, Shawmoss, Shawlands, Glasgow, Glasgow City, Alba / Scotland, G41 3QD, United Kingdom
+هاني تراب | Honey Trap Bakery | مخبز نباتي | 55.8298694,-4.2813387 | Honeytrap Bakery, 4, Skirving Street, Waverley Park, Shawmoss, Crossmyloof, Glasgow, Glasgow City, Alba / Scotland, G41 3AA, United Kingdom
+بيغ بير بيكري | Big Bear Bakery | مخبز | 55.8258755,-4.2678313 | Big Bear Bakery, 54, Sinclair Drive, Battlefield, Glasgow, Glasgow City, Alba / Scotland, G42 9PY, United Kingdom
+نيو لاندز هوم بيكري | Newlands Home Bakery | مخبز | 55.7840557,-4.2749995 | Newlands Home Bakery and Cafe, 27, Eaglesham Road, Clarkston High Street, Sheddens, Stamperland, Clarkston, East Renfrewshire, Alba / Scotland, G76 7DH, United Kingdom
+دينستون بيكري | Deanston Bakery | مخبز وحلويات | 55.8277017,-4.2822203 | Deanston Bakery, 167, Deanston Drive, Waverley Park, Shawmoss, Shawlands, Glasgow, Glasgow City, Alba / Scotland, G41 3LP, United Kingdom
+جيجو بيكد غودز | Jeju Baked Goods | مخبوزات وحلويات | 55.8367271,-4.2645432 | Jeju Baked Goods, 393, Victoria Road, Crosshill, Glasgow, Glasgow City, Alba / Scotland, G42 8RZ, United Kingdom
+سويت جين بيك هاوس | Sweet Jane Bakehouse | مخبز وحلويات | 55.8583462,-4.2161984 | Sweet Jane Bakehouse, 434, Duke Street, Bellgrove, Dennistoun, Glasgow, Glasgow City, Alba / Scotland, G31 1QL, United Kingdom
+أكارا | Akara Bakery | مخبز ومقهى | 55.8585546,-4.2174525 | Akara Bakery, 537, Duke Street, Bellgrove, Dennistoun, Glasgow, Glasgow City, Alba / Scotland, G31 1DL, United Kingdom
+ريست | Rest Coffee Glasgow | مقهى ومخبوزات | 55.8743992,-4.2818226 | Perch & Rest Coffee, 39, Otago Street, Hillhead, Sandyford, Glasgow, Glasgow City, Alba / Scotland, G12 8JJ, United Kingdom
+كافيه سترينج برو | Cafe Strange Brew | مقهى | 55.8309098,-4.2802727 | Strange Brew, 1109, Pollokshaws Road, Shawmoss, Crossmyloof, Glasgow, Glasgow City, Alba / Scotland, G41 3YG, United Kingdom
+شورت لونغ بلاك | Short Long Black | مقهى ومخبوزات | 55.8347766,-4.2651766 | Short Long Black, 501, Victoria Road, Crosshill, Glasgow, Glasgow City, Alba / Scotland, G42 8RL, United Kingdom
+جينيسي أرتيزان جيلاتو | Ginesi’s Artisan Gelato | جيلاتو وحلويات | 55.8356472,-4.2649333 | Ginesi's Artisan Gelato, 455, Victoria Road, Crosshill, Glasgow, Glasgow City, Alba / Scotland, G42 8YU, United Kingdom
+لا جيلاتيسا | La Gelatessa | جيلاتو إيطالي | 55.8368944,-4.2712344 | La Gelatessa, 38, Nithsdale Road, Strathbungo, Glasgow, Glasgow City, Alba / Scotland, G41 2AN, United Kingdom
+رود كوكيز | Rude Cookies | كوكيز وحلويات | 55.8320531,-4.2795261 | Rude Cookies, 28, Minard Road, Waverley Park, Shawmoss, Crossmyloof, Glasgow, Glasgow City, Alba / Scotland, G41 2HN, United Kingdom
