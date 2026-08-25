@@ -1,0 +1,33 @@
+name: Build Poland OSM accommodation coordinates
+
+on:
+  push:
+    branches:
+      - tmp/poland-hotel-map-20260826
+    paths:
+      - 'poland_build/fetch_osm_accommodations.py'
+      - '.github/workflows/build-poland-osm.yml'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install HTTP client
+        run: python -m pip install --quiet requests
+      - name: Fetch named Poland accommodation features from OpenStreetMap
+        run: python poland_build/fetch_osm_accommodations.py
+      - name: Upload OSM accommodation snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: poland-osm-accommodations
+          path: |
+            poland_build/poland_osm_accommodations.json.gz
+            poland_build/poland_osm_report.txt
+          if-no-files-found: error
+          retention-days: 1
