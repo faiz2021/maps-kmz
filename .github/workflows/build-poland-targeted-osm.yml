@@ -1,0 +1,33 @@
+name: Build targeted Poland hotel OSM verification
+
+on:
+  push:
+    branches:
+      - tmp/poland-hotel-map-20260826
+    paths:
+      - 'poland_build/fetch_targeted_osm.py'
+      - '.github/workflows/build-poland-targeted-osm.yml'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install HTTP client
+        run: python -m pip install --quiet requests
+      - name: Fetch targeted hotel verification records
+        run: python poland_build/fetch_targeted_osm.py
+      - name: Upload targeted OSM verification snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: poland-targeted-osm
+          path: |
+            poland_build/poland_targeted_osm.json.gz
+            poland_build/poland_targeted_osm_report.txt
+          if-no-files-found: error
+          retention-days: 1
