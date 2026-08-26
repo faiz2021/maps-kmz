@@ -14,12 +14,14 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 ENDPOINTS = [
     "https://overpass.kumi.systems/api/interpreter",
     "https://overpass-api.de/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
 ]
 
-# Poland split into 12 moderate Overpass bounding boxes.
+# Poland split into 12 moderate bounding boxes. Only the accommodation types
+# represented in the official CWOH selection are fetched, keeping responses small.
 LAT_EDGES = [49.0, 51.0, 53.0, 55.0]
 LON_EDGES = [14.0, 16.75, 19.5, 22.25, 25.0]
-TOURISM_RE = "^(hotel|motel|guest_house|hostel|chalet|apartment|resort)$"
+TOURISM_RE = "^(hotel|motel|guest_house)$"
 
 
 def query_bbox(south: float, west: float, north: float, east: float) -> str:
@@ -27,7 +29,7 @@ def query_bbox(south: float, west: float, north: float, east: float) -> str:
 (
   nwr[\"tourism\"~\"{TOURISM_RE}\"][\"name\"]({south},{west},{north},{east});
 );
-out center tags;"""
+out center tags qt;"""
 
 
 def compact_element(el: dict[str, Any]) -> dict[str, Any] | None:
@@ -64,7 +66,9 @@ def main() -> None:
     })
     records: dict[str, dict[str, Any]] = {}
     report: list[str] = []
+    failed_cells: list[str] = []
     cell = 0
+    total_cells = (len(LAT_EDGES) - 1) * (len(LON_EDGES) - 1)
 
     for i in range(len(LAT_EDGES) - 1):
         for j in range(len(LON_EDGES) - 1):
@@ -74,7 +78,7 @@ def main() -> None:
             q = query_bbox(south, west, north, east)
             payload = None
             last_error = ""
-            for attempt in range(1, 7):
+            for attempt in range(1, 10):
                 endpoint = ENDPOINTS[(cell + attempt) % len(ENDPOINTS)]
                 try:
                     response = session.post(endpoint, data={"data": q}, timeout=330)
@@ -82,11 +86,15 @@ def main() -> None:
                         payload = response.json()
                         break
                     last_error = f"HTTP {response.status_code}: {response.text[:160]}"
-                except Exception as exc:  # network endpoint failover
+                except Exception as exc:
                     last_error = repr(exc)
-                time.sleep(min(5 * attempt, 30))
+                time.sleep(min(4 * attempt, 24))
             if payload is None:
-                raise RuntimeError(f"Overpass cell {cell} failed: {last_error}")
+                failed = f"cell={cell}/{total_cells} bbox={south},{west},{north},{east} failed={last_error}"
+                print(failed, flush=True)
+                report.append(failed)
+                failed_cells.append(failed)
+                continue
 
             elements = payload.get("elements") or []
             added = 0
@@ -99,25 +107,33 @@ def main() -> None:
                     records[key] = item
                     added += 1
             line = (
-                f"cell={cell}/12 bbox={south},{west},{north},{east} "
+                f"cell={cell}/{total_cells} bbox={south},{west},{north},{east} "
                 f"received={len(elements)} added={added} total={len(records)}"
             )
             print(line, flush=True)
             report.append(line)
             time.sleep(2)
 
+    if not records:
+        raise RuntimeError("No OSM records were fetched")
+
     output = {
         "source": "OpenStreetMap via Overpass API",
         "license": "ODbL",
         "record_count": len(records),
+        "failed_cell_count": len(failed_cells),
         "records": list(records.values()),
     }
     raw = json.dumps(output, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
     with gzip.open(OUT_DIR / "poland_osm_accommodations.json.gz", "wb", compresslevel=9) as fh:
         fh.write(raw)
-    report.extend([f"final_record_count={len(records)}", f"json_bytes={len(raw)}"])
+    report.extend([
+        f"final_record_count={len(records)}",
+        f"failed_cell_count={len(failed_cells)}",
+        f"json_bytes={len(raw)}",
+    ])
     (OUT_DIR / "poland_osm_report.txt").write_text("\n".join(report), encoding="utf-8")
-    print(f"Saved {len(records)} OSM accommodation records", flush=True)
+    print(f"Saved {len(records)} OSM accommodation records; failed cells={len(failed_cells)}", flush=True)
 
 
 if __name__ == "__main__":
